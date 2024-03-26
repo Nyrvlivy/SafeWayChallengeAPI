@@ -25,4 +25,5 @@ public class AccountEntity {
     @OneToOne
     @JoinColumn(name = "company_id", unique = true)
     private CompanyEntity company;
+
 }
